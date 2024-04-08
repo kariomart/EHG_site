@@ -1,0 +1,74 @@
+body {
+    background-image: url("/Users/martin/Desktop/PROJECTS/EHG/EHG_SITE/Images/BG.jpg");
+}
+
+.header {
+    display: flex;
+    gap: 80px;
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 100vw;
+    height: 150px;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Inter';
+    font-size: 48px;
+    letter-spacing: .3rem;
+}
+
+.header img {
+    height: 100px;
+    width: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: horizontal;
+    width: 100vw;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.gallery-item {
+    background-color: black;
+    
+}
+
+.gallery-item img {
+    max-width: 100%; 
+    height: 800px;
+    width:400px;
+    object-fit: cover;
+}
+
+.gallery-item:hover img {
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    opacity: 0.7;
+}
+
+.gallery-item h2 {
+    font-family: 'Inter';
+    text-transform:uppercase;
+    font-size: 48px;
+    position: absolute;
+    top: 200px;
+    margin-left: 0;
+    writing-mode: vertical-lr;;
+    display: none;
+    color: white;
+}  
+
+.gallery-item:hover h2 {
+    display: block
+}
+
+.inter-title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
