@@ -1,0 +1,45 @@
+[
+    {
+        "imageSrc": "Images/Antigrams.png",
+        "title": "Antigrams",
+        "titleColor": "#dd2b2b",
+        "link": "https://apps.apple.com/us/app/antigrams/id1112055588"
+    },
+    {
+        "imageSrc": "Images/Universal_Paperclips.png",
+        "title": "Universal Paperclips",
+        "titleColor": "#ffffff",
+        "link": "https://www.decisionproblem.com/paperclips/"
+    },
+    {
+        "imageSrc": "Images/Smilebot.png",
+        "title": "SmileBot",
+        "titleColor": "#976226",
+        "link": "https://www.decisionproblem.com/paperclips/"
+    },
+    {
+        "imageSrc": "Images/Hey_Robot.png",
+        "title": "Hey Robot",
+        "titleColor": "#f73c97",
+        "link": "https://everybodyhousegames.com/heyrobot.html"
+    },
+    {
+        "imageSrc": "Images/Mercury_Prime.png",
+        "title": "Mercury Prime",
+        "titleColor": "#7d2f17",
+        "link": "https://store.steampowered.com/app/1222550/Mercury_Prime/"
+    },
+    {
+        "imageSrc": "Images/Babble_Royale.png",
+        "title": "Babble Royale",
+        "titleColor": "#ffffff",
+        "link": "https://store.steampowered.com/app/1759440/Babble_Royale/"
+    },
+    {
+        "imageSrc": "Images/Coming_Soon.png",
+        "title": "Coming Soon",
+        "titleColor": "#47a6ae",
+        "link": ""
+    }
+  ]
+
