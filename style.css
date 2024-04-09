@@ -1,11 +1,15 @@
 body {
+    margin: 0;
     background-image: url("Images/BG.jpg");
+    background-repeat: no-repeat;
 }
 
 .header {
     display: flex;
     align-items: center;
-    gap: 80px;
+    flex-shrink: 2;
+    gap: 30px;
+    justify-items: start;
     margin-left: 2vw;
     width: 100vw;
     height: 215px;
@@ -24,8 +28,9 @@ body {
 }
 
 .header img:nth-of-type(2) {
-    height: 40px;
-    width: auto;
+    /* margin-left: 0; */
+    /* transform: scale(.9); */
+    height: auto;
 }
 
 .gallery {
@@ -57,6 +62,7 @@ body {
 .gallery-item h2 {
     font-family: 'Inter';
     text-transform:uppercase;
+    font-weight:bolder;
     font-size: 64px;
     writing-mode:vertical-lr;
     transform: rotate(180deg);
