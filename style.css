@@ -1,8 +1,17 @@
 body {
     margin: 0;
-    background-image: url("Images/BG.jpg");
-    background-repeat: no-repeat;
 }
+
+.main {
+    background-image: url("Images/BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    height: 200vh;
+}
+
 
 .header {
     display: flex;
@@ -76,6 +85,18 @@ body {
 
 .gallery-item:hover h2 {
     display: block
+}
+
+.family img {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+.footer {
+    background-color: #776C5B;
+    width: 100vw;
+    height: 700px;
 }
 
 .inter-title {
