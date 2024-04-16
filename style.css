@@ -68,17 +68,16 @@ body {
 }
 
 .gallery-item h2 {
-    font-family: 'Saira';
+    font-family: 'Inter Tight';
     user-select: none;
-    font-weight: 100;
+    font-weight: 900;
     text-transform:uppercase;
-    font-weight:bolder;
     font-size: 56px;
     writing-mode:vertical-lr;
     transform: rotate(180deg);
     text-wrap: nowrap;
     bottom: 0;
-    right: -71px;
+    right: -60px;
     position: absolute;
     display: none;
     color: white;
@@ -86,6 +85,30 @@ body {
 
 .gallery-item:hover h2 {
     display: block
+}
+
+.floater {
+    position: absolute;
+    top: 88vh;
+    left: 40px;
+    z-index: 3;
+    font-family: 'Inter';
+    background-color: transparent; /* no background */
+    color: rgb(255, 255, 255);
+}
+
+.sticky {
+    position: fixed;
+    top: 10px;
+    /* left: 40px; */
+}
+
+.floater h1 {
+    margin-bottom: -20px;
+}
+
+.floater h2 {
+    font-weight: 400;
 }
 
 .family {
@@ -112,18 +135,10 @@ body {
 .footer p {
     font-family: "Open Sans";
     font-weight: 400;
-    width: 60vw;
+    width: 55vw;
     font-size: 20px;
     color: #ffffff;
     text-align: left;
 
 }
 
-.inter-title {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
