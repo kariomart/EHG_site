@@ -19,16 +19,16 @@ body {
 .header {
     /* border: 5px solid blue; */
     /* padding: 2% 2% 2% 2%; */
-    gap: 5vw;
+    gap: 6vw;
     display: flex;
     align-items: center;
     justify-items: start;
     margin-left: 2vw;
-    height: 215px;
+    height: 15vw;
 }
 
 .logo {
-    width: 150px;
+    width: 10vw;
 }
 
 .logotype {
@@ -42,11 +42,13 @@ body {
 }
 
 .gallery {
+    margin-right: -20px;
     display: flex;
     flex-direction: horizontal;
     width: 100vw;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    /* overflow-x: auto; */
+    overflow-x: hidden;
 }
 
 .gallery-item {
@@ -67,6 +69,7 @@ body {
 }
 
 .gallery-item h2 {
+    pointer-events: none;
     font-family: 'Inter Tight';
     user-select: none;
     font-weight: 900;
@@ -88,19 +91,22 @@ body {
 
 .floater {
     position: absolute;
-    top: 88vh;
-    left: 40px;
+    top: 90vh;
+    left: 2vw;
     z-index: 3;
     font-family: 'Inter';
     background-color: transparent; /* no background */
     color: rgb(255, 255, 255);
 }
 
-.sticky {
-    position: fixed;
-    top: 10px;
-    /* left: 40px; */
+@media (width <= 400px)  {
+    .floater {
+        top: 70vh;
+    }
+    
+    
 }
+
 
 .floater h1 {
     margin-bottom: -20px;
@@ -108,6 +114,10 @@ body {
 
 .floater h2 {
     font-weight: 400;
+}
+
+.floater a {
+    color: white;
 }
 
 .family {
