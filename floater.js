@@ -1,15 +1,14 @@
 window.addEventListener('scroll', function() {
-    const stickyText = document.querySelectorAll('.floater');
-    const contentTop = document.querySelector('.main').offsetTop;
+    const floater = document.querySelector('.floater');
     const scrollPosition = window.scrollY;
-    console.log(scrollPosition);
+    // Calculate trigger based on viewport height (155vh)
+    const triggerPosition = window.innerHeight * 1.55;
+
     if (window.innerWidth >= 400) {
-      if (scrollPosition >= 866) {
-        stickyText[0].style.position = 'fixed';
-        stickyText[0].style.top = '5vh';
-      } else {
-        stickyText[0].style.position = 'absolute';
-        stickyText[0].style.top = '90vh';
-      }
+        if (scrollPosition >= triggerPosition) {
+            floater.classList.add('fixed');
+        } else {
+            floater.classList.remove('fixed');
+        }
     }
-  });
+});
