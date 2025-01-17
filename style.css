@@ -92,7 +92,6 @@ body {
 
 .floater {
     position: absolute;
-    top: 155vh;
     left: 2vw;
     z-index: 3;
     font-family: 'Inter';
