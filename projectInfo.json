@@ -21,7 +21,7 @@
         "imageSrc": "Images/Hey_Robot.png",
         "title": "Hey Robot",
         "titleColor": "#f73c97",
-        "link": "https://www.amazon.com/Hey-Robot/dp/B089QWRTVF/"
+        "link": "Pages/heyrobot.html"
     },
     {
         "imageSrc": "Images/Mercury_Prime.png",
@@ -38,8 +38,7 @@
     {
         "imageSrc": "Images/Coming_Soon.png",
         "title": "Coming Soon",
-        "titleColor": "#47a6ae",
+        "titleColor": "#585045",
         "link": ""
     }
   ]
-
