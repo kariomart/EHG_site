@@ -21,7 +21,7 @@
         "imageSrc": "Images/Hey_Robot.png",
         "title": "Hey Robot",
         "titleColor": "#f73c97",
-        "link": "https://www.amazon.com/Hey-Robot/dp/B089QWRTVF/"
+        "link": "Pages/heyrobot.html"
     },
     {
         "imageSrc": "Images/Mercury_Prime.png",
@@ -36,9 +36,9 @@
         "link": "https://store.steampowered.com/app/1759440/Babble_Royale/"
     },
     {
-        "imageSrc": "Images/Coming_Soon.png",
-        "title": "Coming Soon",
-        "titleColor": "#585045",
-        "link": ""
+        "imageSrc": "Images/Q-UP2.png",
+        "title": "Q-UP",
+        "titleColor": "#FFD500",
+        "link": "https://store.steampowered.com/app/3730790/QUP/"
     }
   ]
