@@ -21,7 +21,7 @@
         "imageSrc": "Images/Hey_Robot.png",
         "title": "Hey Robot",
         "titleColor": "#f73c97",
-        "link": "Pages/heyrobot.html"
+        "link": "heyrobot.html"
     },
     {
         "imageSrc": "Images/Mercury_Prime.png",
