@@ -15,13 +15,13 @@
         "imageSrc": "Images/Smilebot.png",
         "title": "SmileBot",
         "titleColor": "#976226",
-        "link": "https://www.decisionproblem.com/paperclips/"
+        "link": "https://kotaku.com/adorable-little-discord-bot-is-actually-a-devious-game-1835009531"
     },
     {
         "imageSrc": "Images/Hey_Robot.png",
         "title": "Hey Robot",
         "titleColor": "#f73c97",
-        "link": "https://everybodyhousegames.com/heyrobot.html"
+        "link": "Pages/heyrobot.html"
     },
     {
         "imageSrc": "Images/Mercury_Prime.png",
@@ -36,10 +36,9 @@
         "link": "https://store.steampowered.com/app/1759440/Babble_Royale/"
     },
     {
-        "imageSrc": "Images/Coming_Soon.png",
-        "title": "Coming Soon",
-        "titleColor": "#47a6ae",
-        "link": ""
+        "imageSrc": "Images/Q-UP2.png",
+        "title": "Q-UP",
+        "titleColor": "#FFD500",
+        "link": "https://store.steampowered.com/app/3730790/QUP/"
     }
   ]
-

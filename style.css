@@ -5,14 +5,14 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    background-image: url("Images/BG.jpg");
+    background-image: url("Images/BG.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     z-index: 0;
     width: 100%;
-    height: 200vh;
+    height: 230vh;
 }
 
 
@@ -47,8 +47,8 @@ body {
     flex-direction: horizontal;
     width: 100vw;
     flex-wrap: nowrap;
-    /* overflow-x: auto; */
     overflow-x: hidden;
+    margin-top: 65vh;
 }
 
 .gallery-item {
@@ -61,6 +61,7 @@ body {
     height: 65vh;
     width:400px;
     object-fit: cover;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
 }
 
 .gallery-item:hover img {
@@ -91,7 +92,22 @@ body {
 
 .floater {
     position: absolute;
-    top: 90vh;
+    top: 155vh;
+    left: 2vw;
+    z-index: 3;
+    font-family: 'Inter';
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.floater.fixed {
+    position: fixed;
+    top: 2vh;
+}
+
+.floater2 {
+    position: fixed;
+    top: 5vh;
     left: 2vw;
     z-index: 3;
     font-family: 'Inter';
@@ -99,21 +115,26 @@ body {
     color: rgb(255, 255, 255);
 }
 
-@media (width <= 400px)  {
+/* @media (max-width: 400px)  {
     .floater {
         top: 70vh;
     }
-    
-    
-}
+} */
 
 
 .floater h1 {
+    font-size: 32px;
     margin-bottom: -20px;
 }
 
 .floater h2 {
+    font-size: 18px;
+    margin-top: 20px;
     font-weight: 400;
+}
+
+.floater h3 {
+    font-size: 16px;
 }
 
 .floater a {
@@ -134,12 +155,13 @@ body {
 .footer {
     background-color: #776C5B;
     width: 100vw;
-    height: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 .footer p {
     font-family: "Open Sans";
@@ -148,6 +170,56 @@ body {
     font-size: 20px;
     color: #ffffff;
     text-align: left;
+}
 
+
+@media screen and (max-width: 768px) {
+    .footer p {
+        width: 85vw;
+        font-size: 18px;
+        /* text-align: center; */
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .floater {
+        position: absolute;
+        top: 900px;
+        left: 5vw;
+        width: 90vw;
+    }
+
+    .floater h1 {
+        font-size: 20px;
+    }
+    
+    .floater h2 {
+        font-size: 16px;
+    }
+    
+    .floater h3 {
+        font-size: 14px;
+    }
+
+    /* Logo styles */
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 24vh;
+        width: 40vw;
+        height: auto;
+    }
+
+    /* Logotype styles */
+    .logotype {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 42vh; /* Positioned below the logo */
+        width: 70vw; /* Can be wider than the logo */
+        height: auto;
+    }
 }
 

@@ -17,6 +17,7 @@ fetch('projectInfo.json')
       // Check if the link field is not empty
       if (item.link) {
         link.href = item.link; // Set the link based on the data
+        link.target = "_blank"; // Add this line to open in new tab
       } else {
         link.style.pointerEvents = 'none'; // Disable link interactivity
       }
